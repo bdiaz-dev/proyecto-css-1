@@ -1,0 +1,44 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    
+    border: 2px solid gray;
+    letter-spacing: 1 px;
+    font-size: 1.5rem;
+    background-color: violet;
+}
+
+th{
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: darkgray;
+    
+}
+
+
+td:not(.colNombres){
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: rgb(243, 240, 240);
+
+}
+
+.colNombres {
+    background-color: darkgray;
+}
+
+td{
+    text-align: center;
+}
+
+h2{
+    margin: 0;
+    padding: 20px;
+}
+
+td:hover{
+    background-color: rgb(15, 151, 56);
+}
